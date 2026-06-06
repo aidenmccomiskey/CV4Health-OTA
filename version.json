@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.9.0",
-  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.9.0/CV4Health_Firmware.ino.bin",
-  "release_notes": "Pulse mode now keeps the same total cycle time and moves faster instead of running longer (2s on / 2s off = 2x speed)."
+  "latest_version": "1.10.0",
+  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.10.0/CV4Health_Firmware.ino.bin",
+  "release_notes": "Pulse mode keeps the same total cycle time and moves faster (2s on / 2s off = 2x speed), plus WiFi OTA support for future updates."
 }
