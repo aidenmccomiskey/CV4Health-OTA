@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.11.0",
-  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.11.0/CV4Health_Firmware.ino.bin",
-  "release_notes": "Adds a 1-minute hold at the closed position after every completed cycle (past the steel point) before the panels open, lets pulse on/off be set in half-second steps, and fixes pause/resume near the end of a cycle."
+  "latest_version": "1.12.0",
+  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.12.0/CV4Health_Firmware.ino.bin",
+  "release_notes": "Reports the current starting-position offset to the app so the Starting Position screen shows the real value and the per-machine Wide Start setting works."
 }
