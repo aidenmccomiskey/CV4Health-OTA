@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.13.0",
-  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.13.0/CV4Health_Firmware.ino.bin",
-  "release_notes": "Starting Position is now a single signed offset slider (-7.2 mm to +15 mm), measured from the limit switch. Negative keeps the panels opening past the switch so they rest more open; positive reverses them closed after the switch. Replaces the Wide Start toggle."
+  "latest_version": "1.14.0",
+  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.14.0/CV4Health_Firmware.ino.bin",
+  "release_notes": "Homing reliability fix. On every homing (power-on, after a cycle, or manual re-home), if the limit switch is already pressed in, the panels first close until it releases, then home normally. Fixes the case where a negative Starting Position left the panels parked past the switch and homing could not find it."
 }
