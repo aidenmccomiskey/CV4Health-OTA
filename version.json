@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.14.0",
-  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.14.0/CV4Health_Firmware.ino.bin",
-  "release_notes": "Homing reliability fix. On every homing (power-on, after a cycle, or manual re-home), if the limit switch is already pressed in, the panels first close until it releases, then home normally. Fixes the case where a negative Starting Position left the panels parked past the switch and homing could not find it."
+  "latest_version": "1.15.0",
+  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.15.0/CV4Health_Firmware.ino.bin",
+  "release_notes": "Each of the three buttons now runs its own saved pulse rhythm, editable in the app and remembered by the device. Treatment speed is shown as average mm/s. New Custom Schedules let you chain preset cycles back-to-back. The post-cycle steel-point hold is preserved."
 }
