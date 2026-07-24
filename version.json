@@ -1,5 +1,5 @@
 {
-  "latest_version": "1.15.0",
-  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.15.0/CV4Health_Firmware.ino.bin",
-  "release_notes": "Each of the three buttons now runs its own saved pulse rhythm, editable in the app and remembered by the device. Treatment speed is shown as average mm/s. New Custom Schedules let you chain preset cycles back-to-back. The post-cycle steel-point hold is preserved."
+  "latest_version": "1.16.0",
+  "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.16.0/CV4Health_Firmware.ino.bin",
+  "release_notes": "Custom Distance: set how far the panels compress — from the full 12.7 mm (0.5\") stroke down to 5.0 mm in 0.1 mm steps, via slider or by typing. Treatment time adjusts automatically so the compression speed stays the same. Presets and the physical buttons are unchanged."
 }
