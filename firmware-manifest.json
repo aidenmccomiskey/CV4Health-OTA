@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "machines": {
+    "current": {
+      "latest_version": "1.22.1",
+      "min_installed_version": "1.17.0",
+      "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.22.1/CV4Health_Firmware-1.22.1.bin",
+      "sha256": "939c6d6ded16cbc0264c7de3cff1baa88f592c1884e70851f6612d5d3b3331bb",
+      "size": 1295504,
+      "release_notes": "For the current machine (2 mm lead screw, belt drive) only. The machine now tells the app its firmware version, starting position and lead screw the moment the app connects, so the Firmware Update page no longer shows \"Unknown\" and Starting Position's Save & Apply is no longer greyed out on a slow connection. No change to motion: stroke, speeds, homing and calibration are identical to 1.22.0."
+    },
+    "legacy": {
+      "latest_version": "1.16.0",
+      "min_installed_version": "1.9.0",
+      "firmware_url": "https://github.com/aidenmccomiskey/CV4Health-OTA/releases/download/fw-1.16.0/CV4Health_Firmware.ino.bin",
+      "sha256": "1f26f60a25ec8c5dbe1786ce299036a3c35df39029d619a4355c791fbee45fa7",
+      "size": 1282064,
+      "release_notes": "For the older machine (M5 x 0.8 screw, direct drive). No newer firmware for this machine."
+    }
+  }
+}
